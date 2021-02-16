@@ -2,8 +2,6 @@ import React from "react";
 
 
 const Dashboard =()=>{
-    
-
    const logout=()=>{
             localStorage.setItem("loggedIn","false")
             window.location.href="/login"

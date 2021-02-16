@@ -11,14 +11,10 @@ const Login=()=>{
         )
         {
             window.location.href="/page/fya"
-        }
-        else{
+        }else{
             window.location.href="/page/dashboard"
         }
-        
-        
-        
-        
+             
 }
 
 return(
