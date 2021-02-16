@@ -1,6 +1,7 @@
 import React from "react";
 
 const FYA=()=>{
+    localStorage.setItem("navigateToFya","false");
     const logout=()=>{
         localStorage.setItem("loggedIn","false")
         window.location.href="/login"

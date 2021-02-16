@@ -5,7 +5,17 @@ const Login=()=>{
     const login =()=>{
         
         localStorage.setItem("loggedIn","true")
-        window.location.href="/page/dashboard"
+        if(
+            localStorage.getItem("navigateToFya") && 
+            localStorage.getItem("navigateToFya") ==="true"
+        )
+        {
+            window.location.href="/page/fya"
+        }
+        else{
+            window.location.href="/page/dashboard"
+        }
+        
         
         
         

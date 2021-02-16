@@ -15,7 +15,9 @@ import {
 
 
 const App=()=>{
-
+    if (window.location.href.includes("page/fya")) {
+        localStorage.setItem("navigateToFya","true");
+      }
     let history=useHistory();
     // if(localStorage.getItem("loggedIn")==="true")
     // {
