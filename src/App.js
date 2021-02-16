@@ -37,7 +37,7 @@ const App=()=>{
         <React.Fragment>
             <Router>
     <Switch>
-    <ProtectedRoute exact path="/page/fya"/>
+   
     
       <PrivateRoute exact path="/" />
       <PrivateRoute path="/page">
